@@ -16,7 +16,7 @@ expo install react-native-gesture-handler react-native-reanimated react-native-s
 npm install @react-navigation/stack
 ```
 
--　Constants
+- Constants
 
 ```
 expo install expo-constants
@@ -26,4 +26,10 @@ expo install expo-constants
 
 ```
 npm install redux react-redux
+```
+
+- react-native-debugger
+
+```
+brew update && brew cask install react-native-debugger
 ```
