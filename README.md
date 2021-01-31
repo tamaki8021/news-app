@@ -3,7 +3,7 @@ ReactNativeでつくるニュースアプリです
 
 ## npmパッケージ
 
-###React Navigation
+- React Navigation
 
 ```
 npm install @react-navigation/native
