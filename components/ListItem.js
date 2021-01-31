@@ -30,14 +30,16 @@ const ListItem = (props) => {
   return (
     <View style={styles.itemContainer}>
       <View style={styles.leftContainer}>
-        <Image
-          style={{ width: 100, height: 100 }}
-          source={{ uri: props.imageUri }}
-        />
+        {!!props.imageUri && (
+          <Image
+            style={{ width: 100, height: 100 }}
+            source={{ uri: props.imageUri }}
+          />
+        )}
       </View>
       <View style={styles.rightContainer}>
         <Text numberOfLines={3} style={styles.text}>
-            {props.title}
+          {props.title}
         </Text>
         <Text style={styles.subText}>{props.author}</Text>
       </View>
