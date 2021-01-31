@@ -2,6 +2,11 @@
 ReactNativeでつくるニュースアプリです
 
 ## npmパッケージ
+- axios
+
+```
+npm install axios
+```
 
 - React Navigation
 
