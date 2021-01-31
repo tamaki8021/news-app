@@ -33,3 +33,9 @@ npm install redux react-redux
 ```
 brew update && brew cask install react-native-debugger
 ```
+
+- redux-devtools-extension
+
+```
+npm install --save redux-devtools-extension
+```
